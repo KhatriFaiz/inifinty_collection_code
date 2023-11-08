@@ -1,0 +1,36 @@
+.addAddressBtn {
+  width: 100%;
+  padding: 24px;
+  font-size: 20px;
+  background: transparent;
+  border: 1px solid #eee;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+.addAddressBtn:hover {
+  background: #ebebeb;
+}
+
+/* Form Styling */
+
+.addressFromContainer {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 24px;
+}
+.form {
+  display: grid;
+  gap: 16px;
+}
+.submitBtn {
+  background: #ff8383;
+  border: none;
+  color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+}
+.submitBtn:hover {
+  background: #ff7676;
+  cursor: pointer;
+}

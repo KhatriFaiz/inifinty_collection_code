@@ -1,0 +1,106 @@
+.card_container {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 16px;
+  padding: 0.5rem;
+  border: 1px solid #eee;
+}
+
+.product_image_container {
+  height: 100%;
+  position: relative;
+}
+
+.product_image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product_details_container {
+  display: flex;
+  align-items: center;
+  padding-block: 8px;
+}
+
+.product_details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product_details_container h4 {
+  font-size: 20px;
+  margin-bottom: 0.7rem;
+}
+
+.discount_price {
+  font-size: 20px;
+  margin-right: 12px;
+  color: #ff8383;
+  font-weight: 700;
+}
+
+.original_price {
+  text-decoration: line-through;
+}
+
+.remove_button {
+  padding: 8px 16px;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Quantity Counter */
+
+.quantity_counter {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.counter_button {
+  height: 32px;
+  width: 32px;
+  border: 1px solid #929292;
+  background-color: transparent;
+  border-radius: 99px;
+  cursor: pointer;
+}
+
+.counter_number {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.update_button {
+  cursor: pointer;
+  background-color: transparent;
+  height: 32px;
+  padding-inline: 12px;
+  border: 1px solid #ff8383;
+  margin-left: 16px;
+}
+
+/* Order summery */
+
+.order_summary_container {
+  border: 1px solid #eee;
+  padding: 16px;
+}
+
+.order_summary_container h3 {
+  margin-bottom: 0.4rem;
+}
+.order_summary_total {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 1rem;
+}

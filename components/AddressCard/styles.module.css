@@ -1,0 +1,22 @@
+.cardContainer * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cardContainer {
+  padding: 16px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+.addressName {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.addressPhone {
+  margin-bottom: 8px;
+  color: #535353;
+}
+.address {
+  color: #535353;
+}

@@ -1,0 +1,15 @@
+.form_message_sucess,
+.form_message_error {
+  margin: 16px 0;
+  padding: 12px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.form_message_sucess {
+  border: 1px solid green;
+  background-color: rgba(0, 128, 0, 0.3);
+}
+.form_message_error {
+  border: 1px solid red;
+  background-color: rgba(255, 0, 0, 0.3);
+}
